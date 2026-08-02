@@ -84,10 +84,16 @@ This project was built to develop practical Security Operations Center (SOC) ski
 <img width="800" height="425" alt="Screenshot 2026-05-27 160715" src="https://github.com/user-attachments/assets/f67b34f7-76e6-4045-b7dc-63993a7a5e9a" />
 <img width="1165" height="392" alt="Screenshot 2026-05-27 162113" src="https://github.com/user-attachments/assets/9fbfbbdf-35c4-4409-9736-9bbb4350f011" />
 
+---
+
 ```powershell
 netstat -ano | findstr :3389
 ```
+
+
+
 <img width="373" height="155" alt="Screenshot 2026-07-28 125722" src="https://github.com/user-attachments/assets/f88e76a6-1d1b-465c-aa18-c9ea21d092e6" />
+
 ---
 
 ### Windows Firewall
@@ -95,7 +101,6 @@ netstat -ano | findstr :3389
 Confirmed that the Windows Defender Firewall allowed inbound Remote Desktop connections.
 
 <img width="646" height="52" alt="Screenshot 2026-07-30 202728" src="https://github.com/user-attachments/assets/0282d063-646b-4eaa-ac18-17d3d2df8791" />
-
 
 ---
 
@@ -134,8 +139,7 @@ hydra -l esosa -P passwords.txt rdp://192.168.50.11 -t 2
 ### Hydra Output
 
 <img width="901" height="263" alt="Screenshot 2026-07-28 140611" src="https://github.com/user-attachments/assets/1f20d229-6a6e-429b-8153-1fc84a131fed" />
-<img width="214" height="222" alt="Screenshot 2026-07-28 140634" src="https://github.com/user-attachments/assets/0999fc92-a91f-4dbb-871f-9c7e22904672" />
-<img width="214" height="222" alt="Screenshot 2026-07-28 140634" src="https://github.com/user-attachments/assets/5460e962-a6f5-4f60-b4e8-e4e2264f22b5" />
+
 
 
 The attack generated multiple failed authentication attempts within a short period.
@@ -163,6 +167,8 @@ The primary Windows event generated was:
 | Timestamp | Attack Time |
 
 **Screenshot**
+
+
 <img width="214" height="222" alt="Screenshot 2026-07-28 140634" src="https://github.com/user-attachments/assets/11a6d8c7-3f8a-49aa-b54c-a2a7077fa08d" />
 
 ---
